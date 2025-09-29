@@ -1,0 +1,198 @@
+/* Header Section CSS Start */
+
+html 
+{
+	scroll-behavior:smooth;
+}
+
+header
+{
+	background:#ffafb8;
+}
+
+header ul
+{
+		margin:0px;
+		padding:0px;
+}
+header li
+{
+	display:inline-block;
+	line-height:50px;
+}
+
+header a
+{
+		color:white;
+		font-size:22px;
+		text-decoration:none;
+		font-family:century gothic;
+		position:relative;
+		top:5px;
+		padding-right:5px;
+        margin-left:20px
+	
+}
+
+.btn1
+{
+		background:black;
+		color:white;
+		height:28px;
+		position:relative;
+		top:5px;
+}
+
+input 
+{
+	position:relative;
+		top:5px;
+		left:20px;
+		height:15px;
+		width:200px;
+		padding:5px;
+		border-radius:6px;
+		margin-left:10px;	
+}
+
+/* Banner Section CSS Start */
+
+.banner-section
+{
+	background-image:url("../images/bg.jpg");
+	height:530px;
+	background-size:cover;
+}
+
+/* About Section CSS Start */
+
+h1 
+{
+	text-align:center;
+	font-family:calibri;
+}
+
+.about-section p
+{
+	font-size:30px;
+	text-align:justify;
+	line-height:50px;
+	font-family:Gabriola;
+	color:#94225d;
+}
+
+/* learning Section CSS Start */
+
+.learning-section div
+{
+	display:inline-block;
+	width:28%;
+	margin:10px;
+	padding:10px;
+
+}
+
+.learning-section img 
+{
+	height:52%;
+	width:100%;
+}
+
+.learning-section p 
+{
+	font-family:calibri;
+	text-align:justify;
+	font-size:20px;
+}
+
+.learning-section div:hover 
+{
+	transform:scale(1.2,1.2);
+	transition:ease-in-out 1s;
+}
+
+.row div 
+{
+	display:inline-block;
+	width:22%;
+	text-align:center;
+	padding:5px;
+}
+
+.row img
+{
+	width:70%;
+	height:32%;
+}
+
+/* Service Section CSS Start */
+
+ .service-section div
+{
+	 width:18%;
+     display:inline-block;
+	 margin:5px;
+	 padding:20px;
+	 background:#ffafb8;
+	 
+}
+.service-section div:hover
+{
+	background:#fff;
+}
+
+.social a
+{
+	font-size:40px;
+	color:black;
+}
+
+.service-section div p
+{
+	font-family:Century Gothic;
+}
+
+/* Contact Section CSS Start */
+
+.contact-section
+{
+	display:flex;
+	width:100%;
+}
+.cont1 
+{
+	width:60%;
+	margin:5px;
+	text-align:center;	
+     background:black;  
+	 color:white;
+	 font-size:25px;
+	 font-family:calibri;
+	 margin-top:0px;
+}
+
+.cont2 
+{
+	width:40%;
+	 text-align:center;	
+     background:black;  
+	 color:white;
+	 font-size:25px;
+	 font-family:calibri;
+}
+
+.cont2 img
+{
+	height:230px;
+	width:100%;
+}
+
+.cont1 input
+{
+		
+		height:40px;
+		width:450px;
+	    margin:2px;
+	    padding-top:12px;
+}
+
